@@ -37,7 +37,7 @@ def save_links(links, save_path):
 # 主程序
 def main():
     # 设置 API Key
-    api_key = "AIzaSyA90Uyp0oOfTXUC4PP6K3N_0tUVAAcYWKc"  # 替换为你的API Key
+    api_key = ""  # 替换为你的API Key
     time.sleep(1)
     # 歌曲列表文件路径
     song_list_file = os.path.join(os.path.dirname(__file__), "mu.txt") # 替换为你的文件路径
